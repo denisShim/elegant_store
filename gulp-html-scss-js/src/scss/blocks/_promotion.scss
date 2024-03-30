@@ -14,13 +14,13 @@
         top: 0;
 
         background-color: #999;
-        background-image: url('./../../img/promotion/bg.jpg');
+        background-image: url('./../img/promotion/bg.jpg');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
 
         @include mediaBg() {
-            background-image: url('./../../img/promotion/bg@2x.jpg');
+            background-image: url('./../img/promotion/bg@2x.jpg');
         }
 
         @include mobile {

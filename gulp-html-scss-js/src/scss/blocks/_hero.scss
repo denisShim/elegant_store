@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
 
     @include mediaBg() {
-        background-image: url('./../../img/hero/bg@2x.jpg');
+        background-image: url('./../img/hero/bg@2x.jpg');
     }
 
     @include tablet {
@@ -19,9 +19,9 @@
     @include mobile {
         height: auto;
         padding-bottom: 390px;
-        background-image: url('./../../img/hero/bg-mobile.jpg');
+        background-image: url('./../img/hero/bg-mobile.jpg');
         @include mediaBg() {
-            background-image: url('./../../img/hero/bg-mobile@2x.jpg');
+            background-image: url('./../img/hero/bg-mobile@2x.jpg');
         }
     }
 
