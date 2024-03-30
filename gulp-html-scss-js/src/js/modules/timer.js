@@ -1,5 +1,5 @@
 function timer(){
-    const endDate = new Date('Mar 15, 2024, 23:59:59');
+    const endDate = new Date('Dec 31, 2024, 23:59:59');
     // endDate.setDate(endDate.getDate() + 3);
     console.log(endDate);
     
